@@ -16,7 +16,7 @@ int main() {
 			continue;
 		}
 		// otherwise, calculate 2 to the power of 'n' or (2 ^ n)
-		// generate numbers from 1 to ('n' - 1) because we will repeat ('n' - 1) again
+		// generate numbers from 1 to ('n' - 2) because we will repeat ('n' - 1) again
 		// in order to stay true to the given constraints in the problem statement
 		// and the n-th value will be the difference of (2 ^ n) and the sum of all the numbers used
 		long long x = pow(2, n);
